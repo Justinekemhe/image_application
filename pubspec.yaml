@@ -1,0 +1,19 @@
+name: image_application
+description: A new Flutter project for capturing and uploading images.
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0
+  http: ^1.2.2
+  path_provider: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
